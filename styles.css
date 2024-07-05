@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-fundo: #EFEFEF;
+    --cor-font: #000000;
+    --cor-buttom: #508D4E;
+    --cor-hover: #93b08f;
+
+    --font-principal: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#titulo {
+    font-family: var(--font-principal);
+    color: var(--cor-font);
+    margin-left: 7%;
+    display: flex;
+    
+} 
+
+#subtitulo {
+    font-family: var(--font-principal);
+    color: var(--cor-font);
+    margin-left: 35%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+} 
+
+fieldset {
+    border-radius: 8px;
+   }
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--font-principal);
+    font-size: 20px;
+    color: var(--cor-font);
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+.container__imagem {
+    position: absolute;
+    top: 5%;
+    right: 20%;
+   
+}
+
+input, button {
+    font-family: var(--font-principal);
+    font-size: 1em;
+    color: var(--cor-font);
+    border-radius: 5px;
+}
+.formulario {
+    text-align: center;
+    position: absolute;
+    margin: 40px auto;
+    width: 50%;
+    border: 1px solid #ccc
+}
+
+.formulario__dados {
+    display: inline-block;
+    position: relative;
+    
+}
+
+.dados {
+    margin-bottom: 1em;
+}
+
+
+.dados label {
+    margin-bottom: 0.2em;
+    color: var(--cor-font);
+    display: block;
+    font-size: 25px;
+    
+    
+}
+
+input[type=text],
+input[type=email],
+input[type=telefone],
+input[type=datetime-local],
+textarea {
+    width: 92%;
+    padding-left: 50px;
+    height: 35px;
+    line-height: 20px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+
+.button {
+    background-color: var(--cor-buttom);
+    border: none;
+    color: var(--cor-font);
+    border: 2px solid var(--cor-font);
+    padding: 12px 28px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 25px;
+    margin-left: 40%;
+    margin-bottom: 1%;
+   
+   
+    
+}
+
+.button:hover{
+    background-color: var(--cor-hover);
+}
+

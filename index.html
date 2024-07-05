@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento Farmácia</title>
+    <link rel="icon" type="favicon.ico" href="img/favicon.ico">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div>
+        <h1 id="titulo">Agendamento de consultas e procedimentos</h1>
+        <p id="subtitulo">Preencha os campos abaixo</p>
+        <img src="./img/favicon.ico" alt="imagem de calendario" class="container__imagem">
+    </div>
+    <form >
+        <fieldset class="grupo">
+        <div class="dados">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" required />
+        </div>
+        <div class="dados">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required />
+        </div>
+        <div class="dados">
+            <label for="telefone">Telefone:</label>
+            <input type="telefone" id="telefone" required />
+        </div>
+        <div class="dados">
+            <label for="msg">Data/Hora Agendamento:</label>
+            <input type="datetime-local" name="dataagendamento" required />
+        </div>
+        <div>
+            <button class="button" type="submit" onsubmit="">Agendar</button>
+        </div>
+    </form>
+</fieldset>
+
+
+
+</body>
+
+</html>
